@@ -16,12 +16,12 @@ x-trigger element, helper for drop down lists
 -->
 
 <link rel="import" href="../core-icon-button/core-icon-button.html">
+<link rel="stylesheet" href="x-trigger.css">
 
 <polymer-element name="x-trigger" extends="core-icon-button" relative on-tap="{{toggle}}" noink>
 
   <template>
     <link rel="stylesheet" href="../uqlibrary-elements/resources/theme/component.css">
-    <link rel="stylesheet" href="x-trigger.css">
 
     <shadow></shadow>
     <div class="arrow" hidden?="{{! dropdown.opened}}"></div>
